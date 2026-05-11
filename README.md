@@ -70,3 +70,16 @@ Frontend: `http://localhost:5173`
 - Backend: `backend/src/main/resources/application.yml`
 - Frontend: `frontend/src/config.ts`
 
+
+## 👤 Contact & Developer Info
+
+**Zakariae IDBRAHIM**  
+*Fourth-year Cybersecurity Engineering Student at ENSIASD*
+
+*   **Portfolio:** [idbrahimzakariae.me](https://idbrahimzakariae.me)
+*   **LinkedIn:** [www.linkedin.com/in/zakariae-idbrahim-198bba2b5](#) 
+*   **GitHub:** [@zakariaeidbrahim](https://github.com/zakariaeidbrahim)
+*   **Email:** idbrahimzakariae1@gmail.com
+
+---
+*Developed as part of my Full-stack development projects.*
