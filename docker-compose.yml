@@ -1,0 +1,21 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: dominogame-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: dominogame
+      MYSQL_USER: dominogame
+      MYSQL_PASSWORD: dominogame
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    command:
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_0900_ai_ci"
+    volumes:
+      - dominogame_mysql:/var/lib/mysql
+
+volumes:
+  dominogame_mysql:
+

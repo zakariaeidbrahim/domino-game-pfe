@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dominogame?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    open-in-view: false
+
+app:
+  jwt:
+    # dev secret (change in production)
+    secret: "CHANGE_ME_SUPER_SECRET_DEV_KEY_32CHARS_MIN"
+    expirationMinutes: 1440
+  cors:
+    allowedOrigins:
+      - "http://localhost:5173"
+
